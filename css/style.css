@@ -1,0 +1,332 @@
+
+
+:root {
+    --primary: #EE4743;
+    --white: #fff;
+    --third-color:#AA7CF2;
+    --para-color:#2E2E2E;
+    --secondary-color:#EE6C6E;
+    --btn-shadow:#F7848494;
+    --bg-color:#F7F7F7;
+}
+
+
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    outline: none !important;
+    cursor: pointer;
+}
+
+
+
+/* .container {
+    max-width: 1364px;
+} */
+
+.logo {
+    text-align: left;
+    letter-spacing: 0px;
+    color: var(--primary) !important;
+    opacity: 1;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    font-size:30px
+}
+
+
+.nav-link {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: var(--white);
+}
+
+.banner {
+    background-image: url(../images/pink.svg);
+    background-repeat: no-repeat;
+    background-position: 44vw -31rem;
+
+}
+
+
+
+.banner button {
+    margin-bottom: 1rem;
+}
+
+
+.banner-img {
+    padding-top: 3rem;
+    padding-bottom: 9rem;
+}
+
+.banner-img img {
+    width: 100%;
+    float: right;
+
+}
+
+.sign-up {
+    border: 1px solid var(--white);
+    border-radius: 26px;
+    color: #FFFFFF;
+    background: transparent;
+    padding: 7px 50px;
+    margin-left: 1rem;
+    font-weight: 400;
+}
+.sign-up:hover {
+    color: #fff;
+    border-color: var(--primary);
+    background-color: var(--primary);
+}
+
+.navbar {
+    padding: 2rem 0rem;
+}
+
+.heading {
+    font-size: 45px;
+    letter-spacing: 0px;
+    opacity: 1;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.heading span {
+    color:var(--third-color);
+}
+
+.banner-content {
+    align-self: center;
+    margin-top: -140px;
+}
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+.para {
+    letter-spacing: 0px;
+    color: var(--para-color);
+    opacity: 1;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.primary-btn {
+    background: transparent linear-gradient(
+    270deg
+    , var(--secondary-color) 0%, var(--primary) 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px -3px 12px var(--btn-shadow);
+        border: none;
+        padding: 14px 42px;
+        border-radius: 40px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+   }
+
+   .defult-btn {
+    box-shadow: 0px -3px 12px var(--btn-shadow);
+    border: 2px solid var(--primary);
+    border-radius: 26px;
+    padding: 12px 53.5px;
+    background: none;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: var(--primary);
+    margin-left: 1rem;
+
+    
+    }
+
+    .small-space {
+        padding-top: 1rem;
+    }
+
+    .spacer {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    /* about us styling */
+
+    .about-us {
+        background-color: var(--bg-color);
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .feature-img {
+        width: 100%;
+    }
+
+    .text {
+        align-self: center;
+    }
+
+    .second-heading {
+        font: normal normal bold 30px/37px Montserrat;
+        letter-spacing: 0px;
+        color: var(--primary);
+        opacity: 1;
+    }
+
+    .contact-us {
+        background-color: var(--bg-color);
+    }
+
+    .light-para {
+        letter-spacing: 0px;
+        color: var(--para-color);
+        opacity: 1;
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .solution {
+        background-color: #fff;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 99px #00000029;
+        border-radius: 29px;
+        opacity: 1;
+        padding: 52px 7rem;
+        margin-top: -195px;
+    }
+
+    .solution button {
+        float: right;
+    }
+
+    .contact-us-div {
+        background: #F8F8F8 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 20px #00000029;
+        border-radius: 21px;
+        opacity: 1;
+        margin-top: 5rem;
+        padding: 4rem 4rem;
+    }
+
+    .email {
+        font: normal normal 600 18px/24px 'Montserrat';
+        letter-spacing: 0px;
+        color: var(--primary);
+        opacity: 1;
+        margin-bottom: 4rem;
+        margin-top: -6px;
+    }
+
+    .form-control {
+        background: #E4E4E4 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        opacity: 1;
+        border: none;
+        font: normal normal normal 20px/24px;
+        letter-spacing: 0px;
+        color: #A3A3A3;
+        opacity: 1;
+        padding:17px;
+        margin-bottom: 0.5rem;
+    }
+
+    .padding-right {
+        padding-right: 1.5rem !important;
+    }
+
+
+    .padding-left {
+        padding-left: 1.5rem !important;
+    }
+
+    .submit {
+        width: 40%;
+        height: 64px;
+        margin-top: 3rem;
+    }
+
+    .footer-mail {
+        padding-left: 3px !important;
+    }
+
+    .footer-mail p{
+        font-size: 16x;
+        font-weight: 300;
+        letter-spacing: 0px;
+        color: #2E2E2E;
+        opacity: 1;
+    }
+
+
+
+    .footer-heading {
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 0px;
+        color: #2E2E2E;
+        font-weight: bold;
+        font-size: 50px;
+        float: right;
+    }
+
+    .footer {
+        border-bottom: 1px solid #B6B6B6;
+        opacity: 1;
+    }
+
+    .copy {
+        letter-spacing: 0px;
+        color: #2E2E2E;
+        opacity: 1;
+        font: normal normal 300 16px/21px;
+        margin-top: 3rem;
+    }
+
+    .in {
+        font-size: 35px;
+        float: right;
+        font-weight: bold;
+    }
+    .footer-link {
+        display: flex;
+    }
+.footer-link li a{
+    display: block;
+    margin-right: 20px;
+    color: #2E2E2E;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+.footer-link li a:hover {
+    color: var(--primary);
+    text-decoration: none;
+}
+  
+.icon-with-text {
+    list-style: none;
+    padding: 0;
+    
+}
+.icon-with-text a {
+    display: block;
+    color: var(--para-color);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.icon-with-text li {
+    margin-bottom: 25px;
+}
+.icon-with-text a:hover {
+    color: var(--primary);
+    text-decoration: none;
+  
+}
+  

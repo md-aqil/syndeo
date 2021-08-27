@@ -1,0 +1,107 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .solution {
+        padding: 47px 2rem;
+        margin-top: -50px;
+    }
+    .banner-content .mr-5 {
+        margin: 0 !important;
+    }
+    .banner-content {
+        text-align: center;
+    }
+    .navbar {
+        padding: 1rem 0rem;
+    }
+    .feature-one .text {
+        align-self: center;
+        margin: 0 !important;
+        margin-top: 30px !important;
+    }
+    .spacer {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .feature-one .text-right {
+        
+        text-align: left !important;
+    }
+    .rom {
+        flex-direction: column-reverse !important;
+    }
+    .banner-img {
+        padding-top: 1rem;
+        padding-bottom: 24px;
+    }
+    .banner {
+        padding-bottom: 50px;
+    }
+    .mob-ml-0 {
+        margin-left: 0 !important;
+    }
+    .mobile-none {
+        display: none !important;
+    }
+    .contact-us {
+        padding: 15px;
+    }
+    .solution button {
+        float: none;
+    }
+    .contact-us-div {
+        padding: 20px;
+    }
+    .padding-left {
+        padding-left: initial !important;
+    }
+    .padding-right {
+        padding-right: initial !important;
+    }
+    .email {
+     
+        margin-bottom: 21px;
+        margin-top: 0;
+    }
+    .footer-heading {
+        float: left;
+    }
+    .in {
+        font-size: 30px;
+        float: left;
+        font-weight: bold;
+        margin-top: 0;
+    }
+    .banner {
+        background-image: url(../images/pink.svg);
+        background-repeat: no-repeat;
+        background-position: 15vw -31rem;
+    
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: rgba(0,0,0,.1);
+        background: var(--primary);
+        border: none;
+    }
+    .banner-content {
+        margin-top: 0px;
+    }
+    .collapse.show {
+        display: block;
+        background: var(--primary);
+    }
+    ul.nav {
+        flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+    .banner button {
+        margin-bottom: 10px;
+        margin-top: 12px;
+    }
+    .logo {
+        margin-top: -10px;
+    }
+}
